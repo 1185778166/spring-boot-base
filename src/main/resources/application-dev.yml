@@ -1,0 +1,26 @@
+# 定义服务器配置
+server:
+  # 定义要访问的端口号是"8081"（默认8080）
+  port: 8081
+  servlet:
+    session:
+      # 定义session的超时时间为是30s
+      timeout: 30
+  tomcat:
+    # 定义URI编码是UTF_8格式
+    uri-encoding: utf-8
+age: 19
+name: zhangsan
+personinfo:
+  name: zhangsan
+  age: 10
+
+# 设置所有情况下都支持字符颜色
+spring:
+  output:
+    ansi:
+      enabled: always
+  # 配置banner关闭
+  main:
+    banner-mode: off
+
