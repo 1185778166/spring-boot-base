@@ -24,6 +24,10 @@ spring:
     username: guest
     password: guest
     virtual-host: /
+    # 开启Confirm机制
+    publisher-confirm-type: correlated
+    # 开启Return机制
+    publisher-returns: true
 
 age: 19
 name: zhangsan
