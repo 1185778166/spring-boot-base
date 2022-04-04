@@ -9,12 +9,6 @@ server:
   tomcat:
     # 定义URI编码是UTF_8格式
     uri-encoding: utf-8
-age: 19
-name: zhangsan
-personinfo:
-  name: zhangsan
-  age: 10
-
 # 设置所有情况下都支持字符颜色
 spring:
   output:
@@ -23,4 +17,16 @@ spring:
   # 配置banner关闭
   main:
     banner-mode: off
+  # RabbitMQ信息
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
 
+age: 19
+name: zhangsan
+personinfo:
+  name: zhangsan
+  age: 10
